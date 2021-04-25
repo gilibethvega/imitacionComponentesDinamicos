@@ -1,3 +1,55 @@
-// Place all the styles related to the Home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.alert{
+    background-color: #fff3cd;
+    color:#856404;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.alert-close{
+    float: right;
+    margin-top: 0px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.collapse-btn{
+    background-color:#007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.6;
+    }
+}
+
+.collapse-content{
+    display: none;
+}
+
+.div-accordion{
+    margin: 10px 0px 20px 0px;
+    display: none;
+    padding: 10px;
+}
+
+.collection-acordion{
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.collection-acordion-btn{
+    background-color:rgba(0,0,0,.03);;
+    color:#0056b3;
+    border: 1px solid rgba(0,0,0,.125);
+    width: 100%;
+    text-align: left;
+    border-color: 1px solid rgba(0,0,0,.125);
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.8;
+    }
+}
